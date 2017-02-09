@@ -1,0 +1,28 @@
+{
+  "name": "mini-vdom",
+  "version": "1.0.0",
+  "description": "My own implementation of VDOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanbauer/Mini-VirtualDOM.git"
+  },
+  "author": "Jean Bauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanbauer/Mini-VirtualDOM/issues"
+  },
+  "homepage": "https://github.com/jeanbauer/Mini-VirtualDOM#readme",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  }
+}

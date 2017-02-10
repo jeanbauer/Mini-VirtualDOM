@@ -1,8 +1,14 @@
-const h = (type, props, ...children) => { type, props, children };
+/** @jsx h */
 
-const virtualDom = h('ul', { 'class': 'list' },
-  h('li', {}, 'item 1'),
-  h('li', {}, 'item 2'),
-));
+function h(type, props, ...children) {
+  return { type, props, children };
+}
 
-console.log('virtualDom', virtualDom);
+const a = (
+  <ul class="list">
+    <li>item 1</li>
+    <li>item 2</li>
+  </ul>
+);
+
+console.log(a);
